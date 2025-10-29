@@ -1,0 +1,25 @@
+{
+  "name": "api_gateway",
+  "version": "1.0.0",
+  "description": "API Gateway for Bazarteer system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bazarteer/api_gateway.git"
+  },
+  "author": "Marko Delić",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bazarteer/api_gateway/issues"
+  },
+  "homepage": "https://github.com/Bazarteer/api_gateway#readme",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.14.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
