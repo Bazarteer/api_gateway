@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package user;
+option java_multiple_files = true; 
+option java_package = "org.bazarteer.userservice.proto";
+
+service UserService {
+  rpc Update (UpdateRequest) returns (UpdateResponse);
+}
+
+message UpdateRequest {
+  string userId = 1;
+  string image = 2;
+  string bio = 3;
+}
+
+message UpdateResponse {
+  string userId = 1;
+}
